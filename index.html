@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mentoria GAP - Transforme sua Barbearia</title>
     
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="http://googleusercontent.com/file_content/10">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Montserrat -->
+    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -25,7 +28,7 @@
         }
 
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Inter', sans-serif;
             background-color: var(--dark-bg);
             color: #EAEAEA;
         }
@@ -89,7 +92,9 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-center h-20">
                 <!-- Logo -->
-                <a href="#" class="text-2xl font-bold text-white">Mentoria<span class="brand-orange">GAP</span></a>
+                <a href="#">
+                    <img src="https://storage.googleapis.com/gemini-prod-us-east1-433801833905-secure/Uploader-uploads-1/Vector.png" alt="Mentoria GAP Logo" class="h-10">
+                </a>
             </div>
         </div>
     </header>
@@ -98,8 +103,8 @@
         <!-- 1. Hero Section with Video -->
         <section class="relative py-20 md:py-28 overflow-hidden">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <div class="text-center lg:text-left fade-in-section">
+                <div class="grid grid-cols-1 gap-12 items-center">
+                    <div class="text-center fade-in-section max-w-3xl mx-auto">
                         <div class="inline-flex items-center bg-gray-800 brand-orange text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
                             <i data-lucide="award" class="w-4 h-4 mr-2"></i>
                             Método GAP: Referência Nacional em Gestão de Barbearias
@@ -107,12 +112,12 @@
                         <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
                             Transforme sua Barbearia em um Negócio de Alta Performance
                         </h1>
-                        <p class="text-lg md:text-xl text-gray-400 max-w-xl mx-auto lg:mx-0 mb-8">
+                        <p class="text-lg md:text-xl text-gray-400 max-w-xl mx-auto mb-8">
                             Método comprovado para aumentar faturamento, otimizar processos e construir uma equipe de excelência em 12 semanas.
                         </p>
                         
                         <!-- Video -->
-                        <div class="relative aspect-video rounded-2xl shadow-2xl overflow-hidden bg-black max-w-lg mx-auto lg:mx-0 mb-8">
+                        <div class="relative aspect-video rounded-2xl shadow-2xl overflow-hidden bg-black max-w-2xl mx-auto mb-8">
                             <iframe 
                                 class="w-full h-full"
                                 src="https://www.youtube.com/embed/kCiKFCjeUSE?autoplay=1&mute=1&loop=1&playlist=kCiKFCjeUSE&controls=0&showinfo=0&rel=0" 
@@ -123,7 +128,7 @@
                             </iframe>
                         </div>
 
-                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                             <a href="#final-cta" class="w-full sm:w-auto cta-button font-bold px-8 py-4 rounded-lg shadow-lg">
                                 Quero Escalar Minha Barbearia
                             </a>
@@ -134,11 +139,6 @@
                         <p class="text-sm text-gray-500 font-medium">
                             + 500 Barbearias Transformadas | Garantia de Resultados
                         </p>
-                    </div>
-                    <div class="relative hidden lg:block fade-in-section" style="animation-delay: 0.2s;">
-                         <img src="https://placehold.co/600x700/1E1E1E/F23005?text=Crescimento+Exponencial" 
-                             alt="Imagem representando crescimento e gestão de negócios" 
-                             class="rounded-2xl shadow-2xl mx-auto w-full max-w-md">
                     </div>
                 </div>
             </div>
@@ -195,12 +195,12 @@
                     <div class="bg-[var(--dark-card)] p-8 rounded-2xl border border-gray-800 fade-in-section">
                         <h3 class="text-2xl font-bold text-white mb-4">Antes da Mentoria</h3>
                         <p class="text-gray-400 mb-6">Gestão amadora, sem controle de caixa, equipe desmotivada e faturamento estagnado.</p>
-                        <img src="https://placehold.co/500x300/2B2B2B/F23005?text=Gráfico+de+Faturamento+Estagnado" alt="Gráfico de faturamento antes da mentoria" class="rounded-lg">
+                        <img src="http://googleusercontent.com/image_generation_content/7" alt="Gráfico de faturamento antes da mentoria" class="rounded-lg">
                     </div>
                     <div class="bg-[var(--dark-card)] p-8 rounded-2xl border border-gray-800 fade-in-section" style="animation-delay: 0.1s;">
                         <h3 class="text-2xl font-bold text-white mb-4">Depois da Mentoria</h3>
                         <p class="text-gray-400 mb-6">Processos otimizados, lucro crescente, time de alta performance e previsibilidade financeira.</p>
-                        <img src="https://placehold.co/500x300/2B2B2B/4ade80?text=Gráfico+de+Faturamento+Crescente" alt="Gráfico de faturamento após a mentoria" class="rounded-lg">
+                        <img src="http://googleusercontent.com/image_generation_content/4" alt="Gráfico de faturamento após a mentoria" class="rounded-lg">
                     </div>
                 </div>
             </div>
@@ -213,25 +213,203 @@
                     <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-4">Um Método, 12 Módulos, Milhões em Resultados</h2>
                     <p class="text-lg text-gray-400">Conheça o passo a passo que vai levar sua barbearia para o próximo nível.</p>
                 </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    <script>
-                        const modules = [
-                            "Diagnóstico 360°", "Cultura e Liderança", "Gestão Financeira", "Precificação Inteligente",
-                            "Marketing e Vendas", "Experiência do Cliente", "Gestão de Equipe", "Processo Seletivo",
-                            "Plano de Carreira", "Expansão e Franquia", "Gestão de Compras", "Inovação e Tendências"
-                        ];
-                        modules.forEach((module, index) => {
-                            document.write(`
-                                <div class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 fade-in-section" style="animation-delay: ${index * 0.05}s;">
-                                    <div class="flex items-center mb-3">
-                                        <div class="bg-gray-800 brand-orange w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mr-4">${index + 1}</div>
-                                        <h3 class="font-bold text-white">${module}</h3>
-                                    </div>
-                                    <p class="text-gray-400 text-sm">Descrição breve do que será abordado no módulo ${module.toLowerCase()}.</p>
-                                </div>
-                            `);
-                        });
-                    </script>
+                <div class="max-w-4xl mx-auto space-y-4 fade-in-section">
+                    <!-- Módulo 01 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="clipboard-check" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 01 - Diagnóstico do Negócio</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Em que Momento o Empresário Está. Avaliação e mapeamento da situação atual da barbearia.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Análise SWOT – Forças, Fraquezas, Oportunidades e Ameaças.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Diagnóstico financeiro inicial – Avaliação de faturamento, custos, lucro e margem.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Levantamento dos processos internos – Identificação de gargalos operacionais.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Perfil e mentalidade do empresário – Identificação de habilidades e desafios.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Definição de objetivos – Metas de curto, médio e longo prazo.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 02 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="brain-circuit" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 02 - Mentalidade GAP</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Trabalhando a mentalidade empreendedora para sair do operacional e focar no estratégico.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Liderança e inteligência emocional – Como ser referência para a equipe.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Gestão do tempo e produtividade – Técnicas para equilibrar execução e estratégia.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Tomada de decisão baseada em dados – Racionalidade vs. emoção.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Cultura de alta performance – Como implementar valores e um ambiente de crescimento.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 03 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="dollar-sign" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 03 - KPI e Indicadores Financeiros</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Controle total dos números do negócio para garantir lucratividade.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Principais indicadores financeiros – Ticket médio, faturamento, margem de lucro.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Fluxo de caixa – Como administrar receitas e despesas sem surpresas.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Precificação estratégica – Como precificar corretamente.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Modelos de faturamento – Receita recorrente, assinatura, pacotes.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Fundo de reserva e capital de giro – Evitando problemas de caixa.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- E assim por diante para os outros módulos... -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="trending-up" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 04 - KPI dos Barbeiros</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Medição do desempenho individual e coletivo da equipe.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Ticket médio e taxa de retorno de clientes – Como aumentar o faturamento por cliente.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Eficiência operacional – Redução de ociosidade e aumento da produtividade.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Vendas de serviços extras e produtos – Estratégias para aumentar receita.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 05 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="calendar-days" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 05 - KPI de Geração de Semanada</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Criação de uma base financeira previsível e sustentável.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Divisão da receita (fixo x variável) – Estruturas de pagamento para barbeiros.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Promoções e pacotes semanais – Estratégias para ter faturamento consistente.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Como equilibrar o volume de atendimento ao longo da semana.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 06 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="file-text" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 06 - Declaração Contábil</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Plano para manter a barbearia regularizada e reduzir impostos legalmente.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Definição do regime tributário ideal (MEI, Simples Nacional, etc.).</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Organização contábil para evitar multas e problemas fiscais.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Como fazer a retirada do lucro corretamente.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 07 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="calendar-plus" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 07 - Como Montar Prévias</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Agendamento eficiente e previsibilidade de trabalho.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Planejamento estratégico da agenda – Como evitar dias cheios e outros vazios.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Uso de sistema de agendamento online – Ferramentas para automatizar o processo.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Lista de espera e remanejamento eficiente.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 08 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="user-plus" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 08 - Contratação</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Estratégias para expandir a equipe com qualidade.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Quando contratar um novo barbeiro – Indicadores para identificar a hora certa.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Perfil ideal do profissional – Habilidades técnicas e comportamentais.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Processo de seleção e teste prático.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Onboarding e treinamento – Como integrar novos barbeiros sem prejudicar operação.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 09 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="bar-chart-3" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 09 - Plano de Carreira</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Retenção de talentos e crescimento profissional dentro da barbearia.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Jornada profissional clara (Júnior ➝ Pleno ➝ Sênior).</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Critérios de crescimento e promoções.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Incentivos e benefícios para barbeiros de alta performance.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Treinamento e desenvolvimento contínuo.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 10 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="target" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 10 - Criação de Metas e Bônus</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Estimulando desempenho com metas estratégicas e recompensas.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Definição de Metas SMART (específicas, mensuráveis, atingíveis, relevantes, temporais).</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Metas individuais e coletivas – E como alinhá-las ao crescimento da barbearia.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Criação de um sistema de bonificação – Recompensas por produtividade, vendas, avaliações.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Monitoramento da evolução das metas – Acompanhamento e ajustes contínuos.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 11 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="workflow" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 11 - Gestão de Processos</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Organização eficaz para garantir eficiência operacional.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Mapeamento e padronização de processos – Atendimento, estoque, marketing, finanças.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Redução de desperdícios e otimização de tempo.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Uso de tecnologia para aumentar eficiência – Softwares de gestão e automação.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Treinamento da equipe para seguir processos corretamente.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Módulo 12 -->
+                    <details class="bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 group">
+                        <summary class="flex justify-between items-center font-semibold cursor-pointer text-white">
+                            <span class="flex items-center"><i data-lucide="shield-alert" class="w-6 h-6 brand-orange mr-4"></i> MÓDULO 12 - Gestão de Crises</span>
+                            <i data-lucide="plus" class="w-5 h-5 brand-orange transition-transform duration-300 plus-icon"></i>
+                        </summary>
+                        <div class="mt-4 text-gray-400 space-y-2 pl-10">
+                           <p class="mb-4">Planejamento para enfrentar desafios sem comprometer o negócio.</p>
+                           <ul class="space-y-2">
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Principais tipos de crises – Financeira, gestão de equipe, reputação, operacional.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Plano de contingência para cada cenário – Como agir rapidamente.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Gestão de conflitos internos – Como evitar brigas entre barbeiros e manter o time motivado.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Gerenciamento de crises de reputação – Como lidar com avaliações e reclamações online.</li>
+                               <li class="flex items-start"><i data-lucide="check" class="w-4 h-4 text-green-500 mr-2 mt-1"></i>Adaptação rápida a mudanças externas – Exemplos de momentos difíceis e como superá-los.</li>
+                           </ul>
+                        </div>
+                    </details>
+                    <!-- Conclusão -->
+                    <div class="bg-gradient-to-r from-orange-600 to-orange-800 p-6 rounded-lg border border-brand-orange/50 text-center">
+                        <h3 class="text-2xl font-bold text-white mb-3">Conclusão Final: O Propósito da Mentoria GAP</h3>
+                        <p class="text-orange-100">Ao finalizar a Mentoria GAP, o empresário terá total domínio sobre sua barbearia, transformando-a em um negócio próspero, organizado e preparado para crescer com previsibilidade e sustentabilidade.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -245,13 +423,13 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
                     <div class="bg-[var(--dark-card)] p-8 rounded-2xl border border-gray-800 text-center fade-in-section">
-                        <img src="https://placehold.co/128x128/F23005/1E1E1E?text=M1" alt="Foto do Mentor 1" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-gray-700">
+                        <img src="https://storage.googleapis.com/gemini-prod-us-east1-433801833905-secure/Uploader-uploads-1/IMG_9209.jpg" alt="Foto de Ricardo Feitoza" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-gray-700 object-cover">
                         <h3 class="text-2xl font-bold text-white">Ricardo Feitoza</h3>
                         <p class="brand-orange font-semibold mb-4">Especialista em Gestão de Barbearias</p>
                         <p class="text-gray-400 text-sm">Com mais de 15 anos de experiência e +500 barbearias mentoradas, Ricardo é a maior autoridade do Brasil em gestão para o setor.</p>
                     </div>
                     <div class="bg-[var(--dark-card)] p-8 rounded-2xl border border-gray-800 text-center fade-in-section" style="animation-delay: 0.1s;">
-                        <img src="https://placehold.co/128x128/F23005/1E1E1E?text=M2" alt="Foto do Mentor 2" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-gray-700">
+                        <img src="https://storage.googleapis.com/gemini-prod-us-east1-433801833905-secure/Uploader-uploads-1/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Foto do Mentor 2" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-gray-700 object-cover">
                         <h3 class="text-2xl font-bold text-white">Nome do Mentor 2</h3>
                         <p class="brand-orange font-semibold mb-4">Especialista em Marketing Digital</p>
                         <p class="text-gray-400 text-sm">Responsável por estratégias que já geraram milhões em faturamento para negócios locais, focado no mercado da beleza.</p>
@@ -276,10 +454,7 @@
                         </div>
                         <div class="order-1 lg:order-2">
                              <div class="relative aspect-video rounded-2xl shadow-2xl overflow-hidden bg-black">
-                                <img src="https://placehold.co/600x338/2B2B2B/FFFFFF?text=Depoimento+em+Vídeo" class="w-full h-full object-cover">
-                                <div class="absolute inset-0 flex items-center justify-center">
-                                    <i data-lucide="play-circle" class="w-20 h-20 text-white/70"></i>
-                                </div>
+                                <img src="http://googleusercontent.com/image_generation_content/8" class="w-full h-full object-cover">
                             </div>
                         </div>
                     </div>
@@ -368,17 +543,17 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                     <div class="bg-[var(--dark-card)] p-8 rounded-2xl border border-gray-800 fade-in-section">
-                        <img src="https://placehold.co/80x80/2B2B2B/F23005?text=Selo+1" alt="Selo de Garantia de Resultado" class="mx-auto mb-4">
+                        <img src="http://googleusercontent.com/image_generation_content/2" alt="Selo de Garantia de Resultado" class="h-20 w-auto mx-auto mb-4">
                         <h3 class="text-xl font-bold text-white">Garantia de Resultado</h3>
                         <p class="text-gray-400 text-sm">Aumente seu faturamento em no mínimo 30% ou receba 100% do seu investimento de volta.</p>
                     </div>
                     <div class="bg-[var(--dark-card)] p-8 rounded-2xl border border-gray-800 fade-in-section" style="animation-delay: 0.1s;">
-                        <img src="https://placehold.co/80x80/2B2B2B/F23005?text=Selo+2" alt="Selo de Suporte" class="mx-auto mb-4">
+                        <img src="http://googleusercontent.com/image_generation_content/6" alt="Selo de Suporte" class="h-20 w-auto mx-auto mb-4">
                         <h3 class="text-xl font-bold text-white">Suporte Pós-Mentoria</h3>
                         <p class="text-gray-400 text-sm">Acompanhamento por 6 meses após a conclusão dos 12 módulos para garantir a implementação.</p>
                     </div>
                     <div class="bg-[var(--dark-card)] p-8 rounded-2xl border border-gray-800 fade-in-section" style="animation-delay: 0.2s;">
-                        <img src="https://placehold.co/80x80/2B2B2B/F23005?text=Selo+3" alt="Selo de Qualidade" class="mx-auto mb-4">
+                        <img src="http://googleusercontent.com/image_generation_content/1" alt="Selo de Qualidade" class="h-20 w-auto mx-auto mb-4">
                         <h3 class="text-xl font-bold text-white">Certificação GAP</h3>
                         <p class="text-gray-400 text-sm">Receba o selo de barbearia com gestão de alta performance, reconhecido no mercado.</p>
                     </div>
@@ -397,17 +572,17 @@
                     <a href="#" class="block bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 hover:-translate-y-1 transition-transform duration-300 fade-in-section">
                         <h3 class="font-bold text-white mb-2">E-book: Os 5 Erros que Impedem sua Barbearia de Lucrar</h3>
                         <p class="text-sm text-gray-400 mb-4">Um guia prático para identificar e corrigir falhas de gestão.</p>
-                        <span class="font-semibold brand-orange">Baixar Grátis &rarr;</span>
+                        <span class="font-semibold brand-orange">Baixar Grátis →</span>
                     </a>
                     <a href="#" class="block bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 hover:-translate-y-1 transition-transform duration-300 fade-in-section" style="animation-delay: 0.1s;">
                         <h3 class="font-bold text-white mb-2">Vídeo: Como Contratar o Barbeiro Certo</h3>
                         <p class="text-sm text-gray-400 mb-4">Aprenda a montar uma equipe de alta performance.</p>
-                        <span class="font-semibold brand-orange">Assistir Agora &rarr;</span>
+                        <span class="font-semibold brand-orange">Assistir Agora →</span>
                     </a>
                     <a href="#" class="block bg-[var(--dark-card)] p-6 rounded-lg border border-gray-800 hover:-translate-y-1 transition-transform duration-300 fade-in-section" style="animation-delay: 0.2s;">
                         <h3 class="font-bold text-white mb-2">Artigo: Precificação Estratégica para Barbearias</h3>
                         <p class="text-sm text-gray-400 mb-4">Descubra como cobrar o preço justo e aumentar seu lucro.</p>
-                        <span class="font-semibold brand-orange">Ler Artigo &rarr;</span>
+                        <span class="font-semibold brand-orange">Ler Artigo →</span>
                     </a>
                 </div>
             </div>
@@ -482,10 +657,16 @@
                 </div>
                 <div class="fade-in-section">
                     <div class="flex overflow-x-auto space-x-8 pb-8 -mx-4 px-4" style="scroll-snap-type: x mandatory;">
-                        <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3" style="scroll-snap-align: start;">
+                        <div class="flex-shrink-0 w-full sm:w-96" style="scroll-snap-align: start;">
+                           <div class="bg-[var(--dark-card)] border border-gray-800 p-8 rounded-2xl h-full flex flex-col">
+                                <p class="text-gray-300 italic flex-grow mb-4">"O faturamento fala por si. A mentoria nos deu a clareza que faltava para transformar nosso esforço em lucro real."</p>
+                                <img src="https://storage.googleapis.com/gemini-prod-us-east1-433801833905-secure/Uploader-uploads-1/WhatsApp%20Image%202025-08-03%20at%2010.56.09.jpeg" alt="Gráfico de crescimento de faturamento de um mentorado" class="rounded-lg shadow-lg">
+                           </div>
+                        </div>
+                        <div class="flex-shrink-0 w-full sm:w-96" style="scroll-snap-align: start;">
                             <div class="bg-[var(--dark-card)] border border-gray-800 p-8 rounded-2xl h-full flex flex-col">
                                 <div class="flex items-center mb-4">
-                                    <img src="https://placehold.co/48x48/F23005/1E1E1E?text=CS" class="w-12 h-12 rounded-full mr-4" alt="Avatar de Carlos Santos">
+                                    <img src="http://googleusercontent.com/image_generation_content/5" class="w-12 h-12 rounded-full mr-4 object-cover" alt="Avatar de Carlos Santos">
                                     <div class="flex text-yellow-400">
                                         <i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i>
                                     </div>
@@ -494,10 +675,10 @@
                                 <cite class="mt-4 not-italic font-semibold text-white">Carlos Santos <span class="text-gray-500 font-normal">- São Paulo, SP</span></cite>
                             </div>
                         </div>
-                        <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3" style="scroll-snap-align: start;">
+                        <div class="flex-shrink-0 w-full sm:w-96" style="scroll-snap-align: start;">
                             <div class="bg-[var(--dark-card)] border border-gray-800 p-8 rounded-2xl h-full flex flex-col">
                                 <div class="flex items-center mb-4">
-                                    <img src="https://placehold.co/48x48/F23005/1E1E1E?text=RO" class="w-12 h-12 rounded-full mr-4" alt="Avatar de Rafael Oliveira">
+                                    <img src="http://googleusercontent.com/image_generation_content/3" class="w-12 h-12 rounded-full mr-4 object-cover" alt="Avatar de Rafael Oliveira">
                                     <div class="flex text-yellow-400">
                                         <i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i>
                                     </div>
@@ -506,10 +687,10 @@
                                 <cite class="mt-4 not-italic font-semibold text-white">Rafael Oliveira <span class="text-gray-500 font-normal">- Belo Horizonte, MG</span></cite>
                             </div>
                         </div>
-                        <div class="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3" style="scroll-snap-align: start;">
+                        <div class="flex-shrink-0 w-full sm:w-96" style="scroll-snap-align: start;">
                             <div class="bg-[var(--dark-card)] border border-gray-800 p-8 rounded-2xl h-full flex flex-col">
                                 <div class="flex items-center mb-4">
-                                    <img src="https://placehold.co/48x48/F23005/1E1E1E?text=MS" class="w-12 h-12 rounded-full mr-4" alt="Avatar de Marcos Silva">
+                                    <img src="http://googleusercontent.com/image_generation_content/9" class="w-12 h-12 rounded-full mr-4 object-cover" alt="Avatar de Marcos Silva">
                                     <div class="flex text-yellow-400">
                                         <i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i><i data-lucide="star" class="w-5 h-5 fill-current"></i>
                                     </div>
@@ -614,7 +795,7 @@
     <!-- Footer -->
     <footer class="bg-black text-gray-500 border-t border-gray-800">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row justify-between items-center">
-            <p class="text-sm">&copy; 2025 Mentoria GAP. Todos os direitos reservados.</p>
+            <p class="text-sm">© 2025 Mentoria GAP. Todos os direitos reservados.</p>
             <div class="flex items-center space-x-4 mt-4 sm:mt-0">
                 <p class="text-sm">Siga-nos:</p>
                 <a href="https://www.instagram.com/ricfeitoza?igsh=OWh3MHY4aDNiM2lp" target="_blank" rel="noopener noreferrer" class="hover:brand-orange transition-colors">
@@ -629,7 +810,7 @@
         <div class="bg-[var(--dark-card)] border border-gray-800 rounded-2xl shadow-2xl p-8 w-full max-w-2xl m-4 transform scale-95 opacity-0">
             <div class="flex justify-between items-center mb-6">
                 <h3 class="text-2xl font-bold text-white flex items-center"><i data-lucide="sparkles" class="brand-orange mr-3"></i>Gerador de Posts para Instagram</h3>
-                <button id="close-post-generator" class="text-gray-500 hover:text-white text-3xl leading-none">&times;</button>
+                <button id="close-post-generator" class="text-gray-500 hover:text-white text-3xl leading-none">×</button>
             </div>
             
             <div class="space-y-4">
@@ -653,7 +834,7 @@
         <div class="bg-[var(--dark-card)] border border-gray-800 rounded-2xl shadow-2xl p-8 w-full max-w-2xl m-4 transform scale-95 opacity-0">
             <div class="flex justify-between items-center mb-6">
                 <h3 class="text-2xl font-bold text-white flex items-center"><i data-lucide="sparkles" class="brand-orange mr-3"></i>Gerador de Respostas para Clientes</h3>
-                <button id="close-response-generator" class="text-gray-500 hover:text-white text-3xl leading-none">&times;</button>
+                <button id="close-response-generator" class="text-gray-500 hover:text-white text-3xl leading-none">×</button>
             </div>
             
             <div class="space-y-4">
